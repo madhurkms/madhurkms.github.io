@@ -179,3 +179,13 @@ document.addEventListener("DOMContentLoaded", function () {
     }
   });
 });
+
+document.querySelectorAll(".watch-site-link").forEach((elem) => {
+  elem.addEventListener("click", (e) => {
+    e.stopPropagation(); // Prevent the outer <a> from triggering
+    const url = elem.getAttribute("data-url");
+    if (url) {
+      window.open(url, "_blank");
+    }
+  });
+});

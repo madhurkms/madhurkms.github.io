@@ -2004,3 +2004,18 @@ textarea.form-input::-webkit-resizer {
   color: #e6b53e;
   text-decoration: underline;
 }
+
+.watch-site-link {
+  color: #f6c244;
+  font-size: 14px;
+  font-weight: 500;
+  margin-top: 10px;
+  cursor: pointer;
+  display: inline-block;
+  transition: color 0.3s ease;
+}
+
+.watch-site-link:hover {
+  color: #ff9357;
+  text-decoration: underline;
+}

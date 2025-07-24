@@ -2002,8 +2002,9 @@ textarea.form-input::-webkit-resizer {
 }
 
 .watch-video-link:hover {
-  color: #e6b53e;
+  /* background-color: #3a3a3a; */
   text-decoration: underline;
+  transform: scale(1.05);
 }
 
 .watch-site-link {
@@ -2017,6 +2018,46 @@ textarea.form-input::-webkit-resizer {
 }
 
 .watch-site-link:hover {
-  color: #ff9357;
+  /* background-color: #3a3a3a; */
   text-decoration: underline;
+  transform: scale(1.05);
+}
+
+/* .enhanced-skill-section {
+  padding: 16px;
+  background-color: #1f1f1f;
+  border-radius: 12px;
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+} */
+
+.enhanced-skills-list {
+  list-style: none;
+  padding-left: 0;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 12px;
+  margin-top: 16px;
+}
+
+.skill-tag {
+  display: flex;
+  align-items: center;
+  background-color: #2a2a2a;
+  color: #f6c244;
+  padding: 8px 14px;
+  border-radius: 24px;
+  font-size: 15px;
+  font-weight: 500;
+  transition: background 0.3s ease, transform 0.2s ease;
+  cursor: default;
+}
+
+.skill-tag:hover {
+  background-color: #3a3a3a;
+  transform: scale(1.05);
+}
+
+.skill-tag .icon {
+  margin-right: 8px;
+  font-size: 18px;
 }

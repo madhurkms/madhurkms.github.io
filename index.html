@@ -466,6 +466,9 @@
               <li class="filter-item">
                 <button data-filter-btn="">Augmented Reality</button>
               </li>
+              <li class="filter-item">
+                <button data-filter-btn="">Mixed Reality</button>
+              </li>
             </ul>
             <div class="filter-select-box">
               <button class="filter-select" data-select="">
@@ -489,6 +492,9 @@
                 <li class="select-item">
                   <button data-select-item="">Augmented Reality</button>
                 </li>
+                <li class="select-item">
+                  <button data-select-item="">Mixed Reality</button>
+                </li>
               </ul>
             </div>
             <ul class="blog-posts-list">
@@ -510,12 +516,19 @@
                       student act as stakeholders and collabrate to thiew
                       constituents.
                     </p>
+                    <span
+                      class="watch-video-link"
+                      data-video="https://drive.google.com/file/d/110IsOx1-xkjFQIUXZJyAY0diWoTGe6XU/preview"
+                      title="Watch Video"
+                    >
+                      ▶ Watch Video
+                    </span>
                   </div>
                 </a>
               </li>
               <li
                 class="project-item blog-post-item active"
-                data-category="augmented reality"
+                data-category="Mixed Reality|Virtual Reality"
                 data-filter-item=""
               >
                 <a href="#">
@@ -528,6 +541,20 @@
                       Helps Engineering students with fundamental learning
                       experiences, the project aims to provide an immersive
                       experience in virtual world.
+                    </p>
+                    <p
+                      class="watch-video-link"
+                      data-video="assets/videos/AC.mp4"
+                      title="Watch Video"
+                    >
+                      <!-- 🎥 -->
+                      ▶ Watch VR Sample
+                    </p>
+                    <p
+                      class="watch-video-link"
+                      data-video="assets/videos/CF Pump - MR.mp4"
+                    >
+                      ▶ Watch MR Sample
                     </p>
                   </div>
                 </a>
@@ -548,6 +575,13 @@
                       underprivileged students learn lab experiments more
                       effectively.
                     </p>
+                    <span
+                      class="watch-video-link"
+                      data-video="https://drive.google.com/file/d/110IsOx1-xkjFQIUXZJyAY0diWoTGe6XU/preview"
+                      title="Watch Video"
+                    >
+                      ▶ Watch Video
+                    </span>
                   </div>
                 </a>
               </li>
@@ -567,6 +601,13 @@
                       TVS-PS Overview presentation to a Gamified Immersive Self
                       Learning program.
                     </p>
+                    <span
+                      class="watch-video-link"
+                      data-video="https://drive.google.com/file/d/110IsOx1-xkjFQIUXZJyAY0diWoTGe6XU/preview"
+                      title="Watch Video"
+                    >
+                      ▶ Watch Video
+                    </span>
                   </div>
                 </a>
               </li>
@@ -587,6 +628,13 @@
                       working at height, chemical handling, material handling,
                       gas cylinder handling, compressed air handling
                     </p>
+                    <span
+                      class="watch-video-link"
+                      data-video="https://drive.google.com/file/d/110IsOx1-xkjFQIUXZJyAY0diWoTGe6XU/preview"
+                      title="Watch Video"
+                    >
+                      ▶ Watch Video
+                    </span>
                   </div>
                 </a>
               </li>
@@ -607,5 +655,21 @@
         ></script>
       </div>
     </main>
+
+    <!-- Video Modal -->
+    <div id="videoModal" class="modal">
+      <div class="modal-content">
+        <span class="close">&times;</span>
+        <iframe
+          id="videoFrame"
+          width="100%"
+          height="400"
+          src=""
+          frameborder="0"
+          allow="autoplay; encrypted-media"
+          allowfullscreen
+        ></iframe>
+      </div>
+    </div>
   </body>
 </html>

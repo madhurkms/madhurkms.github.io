@@ -1,746 +1,156 @@
 <!DOCTYPE html>
 <html lang="en">
   <head>
-    <meta charset="utf-8" />
-    <meta content="IE=edge" http-equiv="X-UA-Compatible" />
-    <meta content="width=device-width, initial-scale=1.0" name="viewport" />
-    <meta
-      name="description"
-      content="Portfolio of Madhu Sudhan R, Senior Software Engineer focused on C#/.NET, WPF, software architecture, test automation, GenAI, and mobile apps."
-    />
-    <meta name="theme-color" content="#0a1117" />
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Madhu Sudhan R, Senior Software Engineer building reliable C#/.NET and WPF software, Android apps, and immersive experiences." />
+    <meta name="theme-color" content="#0c1216" />
     <title>Madhu Sudhan R | Senior Software Engineer</title>
-    <!--
-    - favicon
-  -->
-    <link
-      href="./assets/images/logo.ico"
-      rel="shortcut icon"
-      type="image/x-icon"
-    />
-    <!--
-    - custom css link
-  -->
-    <link href="./assets/css/style.css" rel="stylesheet" />
-    <!--
-    - google font link
-  -->
-    <link href="https://fonts.googleapis.com" rel="preconnect" />
-    <link crossorigin="" href="https://fonts.gstatic.com" rel="preconnect" />
-    <link
-      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&amp;display=swap"
-      rel="stylesheet"
-    />
+    <link rel="icon" href="./assets/images/logo.ico" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
   </head>
   <body>
-    <!--
-    - #MAIN
-  -->
-    <main>
-      <!--
-      - #SIDEBAR
-    -->
-      <aside class="sidebar" data-sidebar="">
-        <div class="sidebar-info">
-          <figure class="avatar-box">
-            <img
-              alt="Madhu Sudhan R"
-              src="./assets/images/madhu-avatar.png"
-              width="80"
-            />
-          </figure>
-          <div class="info-content">
-            <h1 class="name" title="Madhu Sudhan R">Madhu Sudhan R</h1>
-            <p class="title">Senior Software Engineer</p>
-            <a
-              class="title btn btn-custom"
-              href="./assets/Resume - MADHU SUDHAN R.pdf"
-              target="_blank"
-              rel="noopener noreferrer"
-            >
-              <ion-icon
-                class="icon-title"
-                name="arrow-down-outline"
-                aria-hidden="true"
-              ></ion-icon>
-              <span class="icon-text">Resume</span>
-            </a>
-          </div>
-          <button
-            class="info_more-btn"
-            data-sidebar-btn=""
-            aria-expanded="false"
-            aria-label="Show contact details"
-          >
-            <span> Show Contacts </span>
-            <ion-icon name="chevron-down" aria-hidden="true"> </ion-icon>
-          </button>
+    <header class="header">
+      <nav class="wrap nav" aria-label="Main navigation">
+        <a class="brand" href="#home"><span class="monogram" aria-hidden="true">MR.</span> Madhu Sudhan R</a>
+        <div class="nav-links">
+          <a href="#work">Work</a><a href="#about">About</a><a href="#experience">Experience</a><a href="#contact">Contact</a>
+          <a class="resume" href="./assets/Resume%20-%20MADHU%20SUDHAN%20R.pdf" target="_blank" rel="noopener noreferrer">Resume &#8599;</a>
         </div>
-        <div class="sidebar-info_more">
-          <div class="separator"></div>
-          <ul class="contacts-list">
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="mail-outline"> </ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Email</p>
-                <a
-                  class="contact-link"
-                  href="mailto:madhusudhan.r.dev@gmail.com"
-                >
-                  madhusudhan.r.dev@gmail.com
-                </a>
-              </div>
-            </li>
-            <li class="contact-item">
-              <div class="icon-box">
-                <ion-icon name="location-outline"> </ion-icon>
-              </div>
-              <div class="contact-info">
-                <p class="contact-title">Location</p>
-                <address>Bengaluru, Karnataka, India</address>
-              </div>
-            </li>
-          </ul>
-          <div class="separator"></div>
-          <ul class="social-list">
-            <li class="social-item">
-              <a
-                class="social-link"
-                aria-label="LinkedIn"
-                href="https://www.linkedin.com/in/madhu-sudhan-rkms/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ion-icon name="logo-linkedin"> </ion-icon>
-              </a>
-            </li>
-            <!-- <li class="social-item">
-              <a
-                class="social-link"
-                href="https://www.facebook.com/madhurkmssudhan/"
-              >
-                <ion-icon name="logo-facebook"> </ion-icon>
-              </a>
-            </li> -->
-            <li class="social-item">
-              <a
-                class="social-link"
-                aria-label="Instagram"
-                href="https://www.instagram.com/itz_madhusudhan_r/"
-                target="_blank"
-                rel="noopener noreferrer"
-              >
-                <ion-icon name="logo-instagram"> </ion-icon>
-              </a>
-            </li>
+      </nav>
+    </header>
+    <main id="home">
+      <div class="wrap">
+        <section class="hero" aria-labelledby="hero-title">
+          <div>
+            <div class="eyebrow">Software engineer. Product builder.</div>
+            <h1 id="hero-title">Reliable software.<br /><span>Thoughtful apps.</span><br />Built with care.</h1>
+            <p class="hero-copy">I'm Madhu, a Senior Software Engineer working with C#/.NET and WPF. Outside my role, I turn ideas into Android apps people can use.</p>
+            <div class="actions">
+              <a class="button primary" href="#work">Explore my work <span aria-hidden="true">&#8595;</span></a>
+              <a class="button" href="#contact">Let's connect <span aria-hidden="true">&#8599;</span></a>
+            </div>
+            <div class="hero-meta">7+ years in software &nbsp; / &nbsp; Based in Bengaluru, India</div>
+          </div>
+          <div class="portrait-card">
+            <img src="./assets/images/madhu-avatar.png" alt="Madhu Sudhan R" width="450" height="450" />
+            <div class="portrait-caption"><div><strong>Madhu Sudhan R</strong><small>Senior Software Engineer</small></div><span class="mark" aria-hidden="true">&#10035;</span></div>
+          </div>
+        </section>
+        <div class="toolkit">
+          <div class="toolkit-heading"><span class="eyebrow">My toolkit</span><p>From desktop software to mobile and immersive experiences.</p></div>
+          <ul class="stack-strip" aria-label="Technology focus">
+            <li class="tool"><span class="tool-icon" aria-hidden="true">C#</span><div><strong>C# / .NET</strong><small>Application engineering</small></div></li>
+            <li class="tool"><span class="tool-icon" aria-hidden="true">&#8862;</span><div><strong>WPF</strong><small>Desktop interfaces</small></div></li>
+            <li class="tool"><span class="tool-icon" aria-hidden="true">Kt</span><div><strong>Kotlin / Compose</strong><small>Android products</small></div></li>
+            <li class="tool"><span class="tool-icon" aria-hidden="true">&#9671;</span><div><strong>Unity / XR</strong><small>Immersive experiences</small></div></li>
           </ul>
         </div>
-      </aside>
-      <!--
-      - #main-content
-    -->
-      <div class="main-content" id="main-content">
-        <!--
-        - #NAVBAR
-      -->
-        <nav class="navbar">
-          <ul class="navbar-list">
-            <li class="navbar-item">
-              <button class="navbar-link active" data-nav-link="about">About</button>
-            </li>
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link="resume">Resume</button>
-            </li>
-            <li class="navbar-item">
-              <button class="navbar-link" data-nav-link="portfolio">Portfolio</button>
-            </li>
-            <!-- <li class="navbar-item">
-            <button class="navbar-link" data-nav-link>Contact</button>
-          </li> -->
-          </ul>
-        </nav>
-        <!--
-        - #ABOUT
-      -->
-        <article class="about active" data-page="about">
-          <header>
-            <h2 class="h2 article-title">About me</h2>
-          </header>
-          <section class="about-text">
-            <p>
-              I’m a Senior Software Engineer with 7+ years of experience across
-              healthcare, automotive HMI, XR, and mobile. At L&amp;T Technology
-              Services, I support Philips, specializing in C#/.NET, WPF,
-              software architecture, and test automation.
-            </p>
-            <p>
-              Outside my role, I build and publish Android apps under RKMS
-              EMPIRE. I’m interested in technical leadership, generative AI,
-              and practical AI-assisted software development.
-            </p>
-          </section>
-          <ul class="profile-tags" aria-label="Areas of expertise">
-            <li>Technical leadership</li>
-            <li>C# / .NET</li>
-            <li>WPF</li>
-            <li>Software architecture</li>
-            <li>Test automation</li>
-            <li>Unity3D &amp; XR</li>
-          </ul>
-          <div class="hero-actions">
-            <button class="primary-link" data-nav-link="portfolio">
-              Explore selected work
-              <ion-icon name="arrow-forward-outline" aria-hidden="true"></ion-icon>
-            </button>
-            <a class="secondary-link" href="mailto:madhusudhan.r.dev@gmail.com">
-              Get in touch
-            </a>
+        <section id="work" aria-labelledby="work-title">
+          <div class="section-head"><div><div class="eyebrow">01 / Selected work</div><h2 id="work-title">Ideas, shipped.</h2></div><p>Independent Android products and immersive experiences from my engineering journey.</p></div>
+          <div class="projects">
+            <article class="project featured">
+              <div class="project-visual"><img src="./assets/images/projects/animalia-ar.jpg" alt="Animalia AR illustrated animal discovery banner" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Unity / AR</span><h3>Animalia AR</h3><p>A little curiosity. A whole animal world. Interactive animal exploration with optional augmented reality.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.RKMSEMPIRE.AnimaliaAR">Google Play &#8599;</a><a href="https://animalia-ar.web.app/">Project site &#8599;</a></div></div>
+            </article>
+            <article class="project">
+              <div class="project-visual"><img src="./assets/images/projects/ppc-atlas.jpg" alt="PPC Atlas philately passport artwork" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Kotlin / Jetpack Compose</span><h3>PPC Atlas</h3><p>Discover pictorial cancellations, find post offices, and keep a personal collection record.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.rkmsempire.ppcatlas">Google Play &#8599;</a><a href="https://philatelypassport-5179b.web.app/">Project site &#8599;</a></div></div>
+            </article>
+            <article class="project">
+              <div class="project-visual"><img src="./assets/images/projects/tiny-miraclebook.jpg" alt="Tiny Miracle baby memory book artwork" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Kotlin / Jetpack Compose</span><h3>Tiny Miracle</h3><p>Little moments, kept close. A private, local-first baby memory book for milestones and everyday care.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.rkmsempire.tinymiraclebook">Google Play &#8599;</a><a href="https://tiny-miracle-book.web.app/">Project site &#8599;</a></div></div>
+            </article>
           </div>
-          <!--
-          - service
-        -->
-          <section class="service">
-            <h3 class="h3 service-title">What I bring</h3>
-            <ul class="service-list">
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="code-slash-outline" aria-hidden="true"></ion-icon>
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">C#/.NET &amp; WPF</h4>
-                  <p class="service-item-text">
-                    Building reliable desktop applications with C#/.NET and
-                    WPF, with a focus on maintainable code.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="layers-outline" aria-hidden="true"></ion-icon>
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Architecture &amp; technical ownership</h4>
-                  <p class="service-item-text">
-                    Shaping software architecture and taking technical
-                    ownership from design through delivery.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="checkmark-done-outline" aria-hidden="true"></ion-icon>
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Test automation</h4>
-                  <p class="service-item-text">
-                    Building reliable automated checks to catch regressions
-                    and make software changes safer.
-                  </p>
-                </div>
-              </li>
-              <li class="service-item">
-                <div class="service-icon-box">
-                  <ion-icon name="phone-portrait-outline" aria-hidden="true"></ion-icon>
-                </div>
-                <div class="service-content-box">
-                  <h4 class="h4 service-item-title">Independent mobile apps</h4>
-                  <p class="service-item-text">
-                    Built and published Animalia AR, PPC Atlas, and Tiny
-                    Miracle on Google Play under RKMS EMPIRE.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-        <!--
-        - #RESUME
-      -->
-        <article class="resume" data-page="resume">
-          <header>
-            <h2 class="h2 article-title">Resume</h2>
-          </header>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"> </ion-icon>
+          <div class="more-work"><div><strong>Before the apps: immersive learning &amp; simulation</strong><p>Explore the full collection, including WebGL, VR, and MR experiences.</p></div><a class="text-link" href="#all-projects">View all projects &#8595;</a></div>
+        </section>
+        <section id="all-projects" aria-labelledby="all-projects-title">
+          <div class="section-head"><div><div class="eyebrow">The full collection</div><h2 id="all-projects-title">More ways to explore.</h2></div><p>Browse projects by platform, or watch a sample of the immersive work.</p></div>
+          <div class="filters" role="group" aria-label="Filter project collection">
+            <button type="button" data-filter="all" aria-pressed="true">All work</button>
+            <button type="button" data-filter="mobile" aria-pressed="false">Android apps</button>
+            <button type="button" data-filter="xr" aria-pressed="false">XR &amp; AR</button>
+            <button type="button" data-filter="vr" aria-pressed="false">VR &amp; MR</button>
+            <button type="button" data-filter="webgl" aria-pressed="false">WebGL</button>
+          </div>
+          <p id="filter-status" class="hero-meta" role="status">Showing 6 projects</p>
+          <div class="projects" id="project-collection">
+            <article class="project" data-categories="mobile xr">
+              <div class="project-visual"><img src="./assets/images/projects/animalia-ar.jpg" alt="Animalia AR illustrated animal discovery banner" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Unity / AR</span><h3>Animalia AR</h3><p>Interactive animal exploration and optional augmented reality experiences.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.RKMSEMPIRE.AnimaliaAR">Google Play &#8599;</a><a href="https://animalia-ar.web.app/">Project site &#8599;</a></div></div>
+            </article>
+            <article class="project" data-categories="mobile">
+              <div class="project-visual"><img src="./assets/images/projects/ppc-atlas.jpg" alt="PPC Atlas philately passport artwork" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Kotlin / Jetpack Compose</span><h3>PPC Atlas</h3><p>A companion for pictorial cancellation collectors, with a Karnataka catalogue and a local collection record.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.rkmsempire.ppcatlas">Google Play &#8599;</a><a href="https://philatelypassport-5179b.web.app/">Project site &#8599;</a></div></div>
+            </article>
+            <article class="project" data-categories="mobile">
+              <div class="project-visual"><img src="./assets/images/projects/tiny-miraclebook.jpg" alt="Tiny Miracle baby memory book artwork" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Android / Kotlin / Jetpack Compose</span><h3>Tiny Miracle</h3><p>A private, local-first memory book for milestones, care, health, spending, and documents. Caregiver sharing is opt-in.</p><div class="project-links"><a href="https://play.google.com/store/apps/details?id=com.rkmsempire.tinymiraclebook">Google Play &#8599;</a><a href="https://tiny-miracle-book.web.app/">Project site &#8599;</a></div></div>
+            </article>
+            <article class="project" data-categories="webgl">
+              <div class="project-visual screenshot"><img src="./assets/images/projects/geodesign-workshop.jpg" alt="The Workshop showing the Orion city map and facilitator Libby" loading="lazy" /></div>
+              <div class="project-info"><span class="project-type">Arizona State University / WebGL</span><h3>The Workshop: A Geodesign Simulation</h3><p>A collaborative simulation where students explore stakeholder perspectives and work together on community planning.</p><div class="project-links"><a href="https://geodesign.edpl.us/">Visit website &#8599;</a></div></div>
+            </article>
+            <article class="project project-text" data-categories="vr">
+              <div class="project-info"><span class="project-type">One Origin / VR &amp; MR</span><h3>Accelerated Learning</h3><p>Immersive learning experiences that help engineering students explore technical subjects.</p><div class="project-links"><button type="button" data-video="./assets/videos/AC-h264.mp4" data-title="Accelerated Learning: VR sample">Watch VR sample &#8599;</button><button type="button" data-video="./assets/videos/CF Pump - MR-h264.mp4" data-title="Accelerated Learning: MR sample">Watch MR sample &#8599;</button></div></div>
+            </article>
+            <article class="project project-text" data-categories="vr">
+              <div class="project-info"><span class="project-type">Antiz Technologies / VR</span><h3>Titan Safety Training VR</h3><p>Virtual safety training covering work at height, chemical and material handling, gas cylinders, and compressed air.</p></div>
+            </article>
+          </div>
+        </section>
+      </div>
+      <section class="strengths" aria-labelledby="strength-title">
+        <div class="wrap"><div class="eyebrow">02 / How I contribute</div><h2 id="strength-title">Engineering beyond the code.</h2>
+          <div class="strength-grid">
+            <div><span class="strength-number">01</span><h3>C#/.NET &amp; WPF</h3><p>Reliable desktop applications with a focus on maintainable code.</p></div>
+            <div><span class="strength-number">02</span><h3>Technical ownership</h3><p>Software architecture and technical decisions from design through delivery.</p></div>
+            <div><span class="strength-number">03</span><h3>Immersive experiences</h3><p>Unity and XR experience across education, training, and simulation.</p></div>
+            <div><span class="strength-number">04</span><h3>Product delivery</h3><p>Independent Android apps built, tested, and published under RKMS EMPIRE.</p></div>
+          </div>
+        </div>
+      </section>
+      <div class="wrap">
+        <section class="about" id="about" aria-labelledby="about-title">
+          <div class="about-copy"><div class="eyebrow">03 / A little about me</div><h2 id="about-title">An engineer's mindset.<br />A builder's curiosity.</h2><p>I've spent 7+ years building across healthcare, automotive HMI, XR, and mobile. I enjoy turning complex ideas into useful, maintainable software.</p><p>Beyond my day job, I publish Android apps under RKMS EMPIRE and explore practical uses of generative AI in development.</p><a class="text-link" href="https://www.linkedin.com/in/madhu-sudhan-rkms/">More on LinkedIn &#8599;</a></div>
+          <div id="experience" class="timeline" aria-label="Selected experience">
+            <div class="current-role">
+              <div class="role-heading"><span class="eyebrow">Currently</span><span class="role-date">Aug 2024 - Present</span></div>
+              <h3>Senior Software Engineer</h3>
+              <p class="role-company">L&amp;T Technology Services <span>/ Supporting Philips</span></p>
+              <p>Building healthcare software with a focus on architecture, technical ownership, and maintainable solutions.</p>
+              <ul class="role-tags" aria-label="Current focus"><li>C# / .NET</li><li>WPF</li><li>Healthcare</li></ul>
+            </div>
+            <details class="career-history">
+              <summary><span>Earlier experience &amp; education<small>My journey before the current role</small></span><span class="history-toggle" aria-hidden="true">+</span></summary>
+              <div class="history-content">
+            <div class="job"><time>Nov 2022 - Aug 2024</time><h3>Veltris</h3><p>Senior Software Engineer</p><p>Cross-platform AR/VR solutions for education and manufacturing, with Unity performance optimization and Azure integration.</p></div>
+            <div class="job"><time>Apr 2022 - Nov 2022</time><h3>One Origin</h3><p>Senior Extended Reality Developer</p><p>Coordinating development tasks and collaborating with clients on immersive solutions.</p></div>
+            <div class="job"><time>Apr 2021 - Mar 2022</time><h3>One Origin</h3><p>Software Developer</p><p>Developing and debugging features alongside senior developers.</p></div>
+            <div class="job"><time>Feb 2019 - Apr 2021</time><h3>Associate Software Engineer</h3><p>Client and internal projects across 2D, 3D, and VR development.</p></div>
+            <div class="job"><time>Feb 2018 - May 2018</time><h3>Intern</h3><p>Unity and C# game prototypes, collaborating in a team of four on a playable demo.</p></div>
+            <div class="education"><h3>Education</h3><p>Master of Computer Applications / RNS Institute of Technology / 2016 - 2018</p><p>Bachelor's Degree, Computer Science / Bangalore University / 2012 - 2015</p></div>
               </div>
-              <h3 class="h3">Education</h3>
-            </div>
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Master of Computer Applications, Computer Science
-                </h4>
-                <span> 2016 — 2018 [ RNS Institute of Technology ] </span>
-                <p class="timeline-text">
-                  Master of Computer Applications, is a two-year full-time
-                  academic program that imparts education related to computers,
-                  their programming, and applications.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Bachelor's Degree, Computer Science
-                </h4>
-                <span> 2012 — 2015 [ Bangalore University ] </span>
-                <p class="timeline-text">
-                  It is a 3-year undergraduate degree programme that focusses on
-                  knowledge on the basics of computer application.
-                </p>
-              </li>
-            </ol>
-          </section>
-          <section class="timeline">
-            <div class="title-wrapper">
-              <div class="icon-box">
-                <ion-icon name="book-outline"> </ion-icon>
-              </div>
-              <h3 class="h3">Experience</h3>
-            </div>
-            <ol class="timeline-list">
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  L&amp;T Technology Services
-                </h4>
-                <ol class="timeline-list">
-                  <li class="timeline-item">
-                    <h4 class="h4 timeline-item-title">
-                      Senior Software Engineer
-                    </h4>
-                    <span> Aug 2024 – Present </span>
-                    <p class="timeline-text">
-                      Supporting Philips across healthcare technology with
-                      C#/.NET and WPF software engineering. Focused on software
-                      architecture, automated testing, technical ownership, and
-                      delivering reliable, maintainable solutions.
-                    </p>
-                  </li>
-                </ol>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Veltris</h4>
-                <ol class="timeline-list">
-                  <li class="timeline-item">
-                    <h4 class="h4 timeline-item-title">
-                      Senior Software Engineer
-                    </h4>
-                    <span> Nov 2022 – Aug 2024 </span>
-                    <p class="timeline-text">
-                      Developed and deployed cross-platform AR/VR solutions for
-                      clients in education and manufacturing sectors. Focused on
-                      performance optimization and cloud integration using Unity
-                      and Azure.
-                    </p>
-                  </li>
-                </ol>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">One Origin Inc.</h4>
-                <ol class="timeline-list">
-                  <li class="timeline-item">
-                    <h4 class="h4 timeline-item-title">
-                      Senior Extended Reality Developer
-                    </h4>
-                    <span> April 2022 — Nov 2022 </span>
-                    <p class="timeline-text">
-                      Delegating tasks to team members and working closely with
-                      clients to design, develop, and implement solutions that
-                      meet their needs.
-                    </p>
-                  </li>
-                  <li class="timeline-item">
-                    <h4 class="h4 timeline-item-title">Software Developer</h4>
-                    <span> April 2021 — March 2022 </span>
-                    <p class="timeline-text">
-                      Writing and debugging code and working closely with senior
-                      developers to improve product’s functionality.
-                    </p>
-                  </li>
-                </ol>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">
-                  Associate Software Engineer
-                </h4>
-                <span> Feb 2019 — April 2021 </span>
-                <p class="timeline-text">
-                  Working on both client and internal projects. Worked with 2D,
-                  3D and VR development.
-                </p>
-              </li>
-              <li class="timeline-item">
-                <h4 class="h4 timeline-item-title">Intern</h4>
-                <span> Feb 2018 - May 2018 </span>
-                <p class="timeline-text">
-                  Built prototype games using Unity 3D and C#. Learned core
-                  concepts of 2D and 3D game mechanics, and collaborated in a
-                  team of 4 to deliver a playable demo.
-                </p>
-              </li>
-            </ol>
-          </section>
-          <h3 class="h3 skills-title">Focus areas</h3>
-          <ul class="enhanced-skills-list">
-            <li class="skill-tag">Technical leadership</li>
-            <li class="skill-tag">C# / .NET</li>
-            <li class="skill-tag">WPF</li>
-            <li class="skill-tag">Software architecture</li>
-            <li class="skill-tag">Test automation</li>
-            <li class="skill-tag">GenAI &amp; prompt engineering</li>
-            <li class="skill-tag">Unity3D &amp; XR</li>
-            <li class="skill-tag">Android development</li>
-          </ul>
-        </article>
-        <!--
-        - #PORTFOLIO
-      -->
-        <article class="portfolio" data-page="portfolio">
-          <header>
-            <h2 class="h2 article-title">Selected work</h2>
-          </header>
-          <section class="blog-posts">
-            <p class="portfolio-intro">
-              A selection of recent products and immersive experiences I’ve
-              worked on.
-            </p>
-            <ul class="filter-list">
-              <li class="filter-item">
-                <button class="active" data-filter-btn="" data-filter-value="all">
-                  All work
-                </button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn="" data-filter-value="mobile">
-                  Android apps
-                </button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn="" data-filter-value="xr">
-                  XR &amp; AR
-                </button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn="" data-filter-value="vr">VR &amp; MR</button>
-              </li>
-              <li class="filter-item">
-                <button data-filter-btn="" data-filter-value="webgl">WebGL</button>
-              </li>
-            </ul>
-            <div class="filter-select-box">
-              <button
-                class="filter-select"
-                data-select=""
-                aria-haspopup="listbox"
-                aria-expanded="false"
-              >
-                <div class="select-value" data-select-value="">
-                  All work
-                </div>
-                <div class="select-icon">
-                  <ion-icon name="chevron-down" aria-hidden="true"> </ion-icon>
-                </div>
-              </button>
-              <ul class="select-list" role="listbox" aria-label="Filter projects">
-                <li class="select-item">
-                  <button data-select-item="" data-filter-value="all" role="option">
-                    All work
-                  </button>
-                </li>
-                <li class="select-item">
-                  <button
-                    data-select-item=""
-                    data-filter-value="mobile"
-                    role="option"
-                  >
-                    Android apps
-                  </button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item="" data-filter-value="xr" role="option">
-                    XR &amp; AR
-                  </button>
-                </li>
-                <li class="select-item">
-                  <button data-select-item="" data-filter-value="vr" role="option">
-                    VR &amp; MR
-                  </button>
-                </li>
-                <li class="select-item">
-                  <button
-                    data-select-item=""
-                    data-filter-value="webgl"
-                    role="option"
-                  >
-                    WebGL
-                  </button>
-                </li>
-              </ul>
-            </div>
-            <ul class="blog-posts-list" aria-live="polite">
-              <li
-                class="project-item active project-card"
-                data-category="mobile|xr|ar"
-                data-filter-item=""
-              >
-                <div class="project-card-media">
-                  <img
-                    src="./assets/images/projects/animalia-ar.jpg"
-                    alt="Animalia AR banner featuring colorful cartoon animals"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <span class="project-status">On Google Play</span>
-                </div>
-                <div class="project-card-content">
-                  <p class="project-kicker">Android · Unity · AR</p>
-                  <h3 class="h3 project-card-title">Animalia AR</h3>
-                  <p class="project-card-description">
-                    An animal discovery app with an interactive Explore mode
-                    and optional AR experiences. Learn animal facts, try
-                    supported actions, and meet wildlife in your space.
-                  </p>
-                  <ul class="project-tags" aria-label="Technologies">
-                    <li>Unity</li>
-                    <li>ARCore</li>
-                    <li>Android</li>
-                  </ul>
-                  <div class="project-links">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.RKMSEMPIRE.AnimaliaAR"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Google Play <span aria-hidden="true">↗</span>
-                    </a>
-                    <a
-                      href="https://animalia-ar.web.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Project site <span aria-hidden="true">↗</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li
-                class="project-item active project-card"
-                data-category="mobile"
-                data-filter-item=""
-              >
-                <div class="project-card-media">
-                  <img
-                    src="./assets/images/projects/ppc-atlas.jpg"
-                    alt="PPC Atlas artwork showing its Karnataka philately passport and pictorial cancellations"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <span class="project-status">On Google Play</span>
-                </div>
-                <div class="project-card-content">
-                  <p class="project-kicker">Android · Kotlin · Jetpack Compose</p>
-                  <h3 class="h3 project-card-title">PPC Atlas</h3>
-                  <p class="project-card-description">
-                    A companion for collectors of Permanent Pictorial
-                    Cancellations. Explore a curated Karnataka catalogue, find
-                    the designated post office, plan trips, and keep a local
-                    collection record.
-                  </p>
-                  <ul class="project-tags" aria-label="Technologies">
-                    <li>Kotlin</li>
-                    <li>Jetpack Compose</li>
-                    <li>Room</li>
-                  </ul>
-                  <div class="project-links">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.rkmsempire.ppcatlas"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Google Play <span aria-hidden="true">↗</span>
-                    </a>
-                    <a
-                      href="https://philatelypassport-5179b.web.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Project site <span aria-hidden="true">↗</span>
-                    </a>
-                  </div>
-                  <p class="project-release-note">
-                    Version 1.0.2 is submitted for review; rollout is pending.
-                  </p>
-                </div>
-              </li>
-              <li
-                class="project-item active project-card"
-                data-category="mobile"
-                data-filter-item=""
-              >
-                <div class="project-card-media">
-                  <img
-                    src="./assets/images/projects/tiny-miraclebook.jpg"
-                    alt="Tiny Miracle baby memory book artwork with a mobile app preview"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                  <span class="project-status">On Google Play</span>
-                </div>
-                <div class="project-card-content">
-                  <p class="project-kicker">Android · Kotlin · Jetpack Compose</p>
-                  <h3 class="h3 project-card-title">Tiny Miracle</h3>
-                  <p class="project-card-description">
-                    A private, local-first baby memory book for care, health,
-                    spending, milestones, and documents, brought together in a
-                    single timeline. Optional caregiver sharing is opt-in.
-                  </p>
-                  <ul class="project-tags" aria-label="Technologies">
-                    <li>Kotlin</li>
-                    <li>Jetpack Compose</li>
-                    <li>Room</li>
-                  </ul>
-                  <div class="project-links">
-                    <a
-                      href="https://play.google.com/store/apps/details?id=com.rkmsempire.tinymiraclebook"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Google Play <span aria-hidden="true">↗</span>
-                    </a>
-                    <a
-                      href="https://tiny-miracle-book.web.app/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Project site <span aria-hidden="true">↗</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li
-                class="project-item active project-card"
-                data-category="webgl"
-                data-filter-item=""
-              >
-                <div class="project-card-media project-card-media-screenshot">
-                  <img
-                    src="./assets/images/projects/geodesign-workshop.jpg"
-                    alt="The Workshop geodesign simulation showing the Orion city map and the facilitator Libby welcoming the player"
-                    loading="lazy"
-                    decoding="async"
-                  />
-                </div>
-                <div class="project-card-content">
-                  <p class="project-kicker">Arizona State University · WebGL</p>
-                  <h3 class="h3 project-card-title">
-                    The Workshop: A Geodesign Simulation
-                  </h3>
-                  <p class="project-card-description">
-                    A collaborative geodesign simulation where students explore
-                    stakeholder perspectives and work together on community
-                    planning.
-                  </p>
-                  <div class="project-links">
-                    <a
-                      href="https://geodesign.edpl.us/"
-                      target="_blank"
-                      rel="noopener noreferrer"
-                    >
-                      Visit website <span aria-hidden="true">↗</span>
-                    </a>
-                  </div>
-                </div>
-              </li>
-              <li
-                class="project-item blog-post-item active"
-                data-category="vr|mr"
-                data-filter-item=""
-              >
-                <div class="blog-content legacy-project-card">
-                  <div class="blog-meta">
-                    <p class="blog-category">One Origin</p>
-                  </div>
-                  <h3 class="h3 blog-item-title">Accelerated Learning</h3>
-                  <p class="blog-text">
-                    Immersive VR and MR learning experiences that help
-                    engineering students explore technical subjects.
-                  </p>
-                  <div class="legacy-project-actions">
-                    <button
-                      class="watch-video-link"
-                      data-video="assets/videos/AC-h264.mp4"
-                      type="button"
-                    >
-                      Watch VR sample
-                    </button>
-                    <button
-                      class="watch-video-link"
-                      data-video="assets/videos/CF Pump - MR-h264.mp4"
-                      type="button"
-                    >
-                      Watch MR sample
-                    </button>
-                  </div>
-                </div>
-              </li>
-              <li
-                class="project-item blog-post-item active"
-                data-category="vr"
-                data-filter-item=""
-              >
-                <div class="blog-content legacy-project-card">
-                  <div class="blog-meta">
-                    <p class="blog-category">Antiz Technologies Pvt. Ltd</p>
-                  </div>
-                  <h3 class="h3 blog-item-title">Titan Safety Training VR</h3>
-                  <p class="blog-text">
-                    A virtual safety-training application covering work at
-                    height, chemical and material handling, gas cylinders, and
-                    compressed air.
-                  </p>
-                </div>
-              </li>
-            </ul>
-          </section>
-        </article>
-        <!--
-            - custom js link
-          -->
-        <script src="./assets/js/script.js"></script>
-        <script
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
-          type="module"
-        ></script>
-        <script
-          nomodule=""
-          src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
-        ></script>
+            </details>
+            <a class="text-link full-resume" href="./assets/Resume%20-%20MADHU%20SUDHAN%20R.pdf">View full resume &#8599;</a>
+          </div>
+        </section>
+        <section id="contact" class="contact" aria-labelledby="contact-title">
+          <div><div class="eyebrow">04 / Keep in touch</div><h2 id="contact-title">Have something<br />in mind? Let's talk.</h2><p>Engineering conversations, product ideas, or simply a hello.<br />I'd be glad to connect.</p></div>
+          <div class="contact-options">
+            <a class="contact-link" href="mailto:madhusudhan.r.dev@gmail.com"><span class="contact-symbol" aria-hidden="true">@</span><div><small>Send a note</small><strong>madhusudhan.r.dev@gmail.com</strong></div><span class="contact-arrow" aria-hidden="true">&#8599;</span></a>
+            <a class="contact-link" href="https://www.linkedin.com/in/madhu-sudhan-rkms/"><span class="contact-symbol" aria-hidden="true">in</span><div><small>Connect on LinkedIn</small><strong>Madhu Sudhan R</strong></div><span class="contact-arrow" aria-hidden="true">&#8599;</span></a>
+            <div class="contact-location">Based in Bengaluru, India</div>
+          </div>
+        </section>
       </div>
     </main>
-
-    <!-- Video Modal -->
-    <div
-      id="videoModal"
-      class="modal"
-      role="dialog"
-      aria-modal="true"
-      aria-label="Project video"
-    >
-      <div class="modal-content">
-        <button class="close" type="button" aria-label="Close video">&times;</button>
-        <video
-          id="videoPlayer"
-          title="Project video"
-          controls
-          playsinline
-          preload="metadata"
-        ></video>
-        <p class="video-error" role="status" hidden>
-          This video couldn’t be played. Please try again later.
-        </p>
-      </div>
-    </div>
+    <footer><div class="wrap footer-content"><span>Madhu Sudhan R / Bengaluru, India</span><div><a href="https://www.linkedin.com/in/madhu-sudhan-rkms/">LinkedIn</a> &nbsp; / &nbsp; <a href="https://www.instagram.com/itz_madhusudhan_r/">Instagram</a> &nbsp; / &nbsp; <a href="#home">Back to top &#8593;</a></div><span>Built with care.</span></div></footer>
+    <dialog class="video-dialog" id="video-dialog" aria-labelledby="video-title">
+      <header><h2 id="video-title">Project video</h2><button class="video-close" type="button" autofocus>Close</button></header>
+      <video id="video-player" controls playsinline preload="metadata"></video>
+      <p class="video-error" role="status" hidden>This video couldn't be played. Please try again later.</p>
+    </dialog>
+    <script src="./assets/js/script.js"></script>
   </body>
 </html>
